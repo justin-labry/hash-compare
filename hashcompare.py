@@ -1,4 +1,5 @@
 from hashlib import sha1, sha256, blake2b, blake2s
+from blake3 import blake3, KEY_LEN, OUT_LEN
 from zlib import crc32
 import time
 import inspect
@@ -28,8 +29,10 @@ class Hash(object):
     def bytes_to_float(self, b):
         return float(crc32(b) & 0xffffffff) / 2**32
 
-    def update(self, data):
+    def update(self, data, args=[]):
         self.hash_fuction.update(data)
+        for item in args:
+            self.hash_fuction.update(item)
 
     def digest(self):
         return self.hash_fuction.digest()
@@ -41,7 +44,7 @@ preprocessing such as
 """
 x_range = [1,10,100,200,300,400,500,600,700,800, 900, 1000]
 
-hash_mapper = [Hash(sha256(), "sha256"), Hash(sha1(), "sha1"), Hash(blake2b(), "blake2b"), Hash(blake2s(), "blake2s")]
+hash_mapper = [Hash(sha256(), "sha256"), Hash(sha1(), "sha1"), Hash(blake2b(), "blake2b"), Hash(blake2s(), "blake2s"), Hash(blake3(), "blake3")]
 hash_mapper = np.array(hash_mapper)
 
 simulated_packet = "abcdefghij"
@@ -88,6 +91,7 @@ plot_result.sha256 = plot_result.sha256.astype(float)
 plot_result.sha1 = plot_result.sha1.astype(float)
 plot_result.blake2b = plot_result.blake2b.astype(float)
 plot_result.blake2s = plot_result.blake2s.astype(float)
+plot_result.blake3 = plot_result.blake3.astype(float)
 
 ax = plot_result.plot()
 ax.set_xlabel("The Size of Packets")

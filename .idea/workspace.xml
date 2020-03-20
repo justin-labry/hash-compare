@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ebe70a9-2ed3-4ac4-b767-7d56d1d5c596" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6ebe70a9-2ed3-4ac4-b767-7d56d1d5c596" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash-compare-test-rsa.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/hash-compare-test-rsa.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash-compare-test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/hash-compare-test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashcompare.py" beforeDir="false" afterPath="$PROJECT_DIR$/hashcompare.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +21,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="ca14e4ce-599e-476b-9a6e-e1917b3fe2ac" />
   <component name="ProjectId" id="1XxweYiW2hVHhM9TM6vafYXMfk2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -25,18 +40,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.hash-compare">
     <configuration name="hash-compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -83,9 +86,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hash-comparison" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.hash-compare" />
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -103,14 +129,69 @@
       <workItem from="1582001150290" duration="13791000" />
       <workItem from="1582072011355" duration="4889000" />
       <workItem from="1582159459066" duration="1014000" />
+      <workItem from="1582521501987" duration="2224000" />
+      <workItem from="1582874156682" duration="185000" />
+      <workItem from="1583111289656" duration="2072000" />
+      <workItem from="1583198418671" duration="326000" />
+      <workItem from="1584613867336" duration="280000" />
+      <workItem from="1584617002627" duration="104000" />
+      <workItem from="1584667386426" duration="2496000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2503" height="356" key="GridCell.Tab.0.bottom" timestamp="1584669384113">
+      <screen x="0" y="23" width="2560" height="1508" />
+    </state>
+    <state width="2503" height="356" key="GridCell.Tab.0.bottom/-2560.117.2560.1417/0.23.2560.1508@0.23.2560.1508" timestamp="1584669384113" />
+    <state width="2503" height="319" key="GridCell.Tab.0.bottom/-2560.117.2560.1417/0.23.2560.1512@0.23.2560.1512" timestamp="1582874522221" />
+    <state width="2503" height="313" key="GridCell.Tab.0.bottom/-2560.117.2560.1417/0.23.2560.1517@0.23.2560.1517" timestamp="1584613995650" />
+    <state width="2503" height="313" key="GridCell.Tab.0.bottom/-2560.117.2560.1417/0.23.2560.1522@0.23.2560.1522" timestamp="1584617019546" />
+    <state width="2503" height="356" key="GridCell.Tab.0.center" timestamp="1584669384112">
+      <screen x="0" y="23" width="2560" height="1508" />
+    </state>
+    <state width="2503" height="356" key="GridCell.Tab.0.center/-2560.117.2560.1417/0.23.2560.1508@0.23.2560.1508" timestamp="1584669384112" />
+    <state width="2503" height="319" key="GridCell.Tab.0.center/-2560.117.2560.1417/0.23.2560.1512@0.23.2560.1512" timestamp="1582874522220" />
+    <state width="2503" height="313" key="GridCell.Tab.0.center/-2560.117.2560.1417/0.23.2560.1517@0.23.2560.1517" timestamp="1584613995649" />
+    <state width="2503" height="313" key="GridCell.Tab.0.center/-2560.117.2560.1417/0.23.2560.1522@0.23.2560.1522" timestamp="1584617019545" />
+    <state width="2503" height="356" key="GridCell.Tab.0.left" timestamp="1584669384112">
+      <screen x="0" y="23" width="2560" height="1508" />
+    </state>
+    <state width="2503" height="356" key="GridCell.Tab.0.left/-2560.117.2560.1417/0.23.2560.1508@0.23.2560.1508" timestamp="1584669384112" />
+    <state width="2503" height="319" key="GridCell.Tab.0.left/-2560.117.2560.1417/0.23.2560.1512@0.23.2560.1512" timestamp="1582874522220" />
+    <state width="2503" height="313" key="GridCell.Tab.0.left/-2560.117.2560.1417/0.23.2560.1517@0.23.2560.1517" timestamp="1584613995649" />
+    <state width="2503" height="313" key="GridCell.Tab.0.left/-2560.117.2560.1417/0.23.2560.1522@0.23.2560.1522" timestamp="1584617019545" />
+    <state width="2503" height="356" key="GridCell.Tab.0.right" timestamp="1584669384113">
+      <screen x="0" y="23" width="2560" height="1508" />
+    </state>
+    <state width="2503" height="356" key="GridCell.Tab.0.right/-2560.117.2560.1417/0.23.2560.1508@0.23.2560.1508" timestamp="1584669384113" />
+    <state width="2503" height="319" key="GridCell.Tab.0.right/-2560.117.2560.1417/0.23.2560.1512@0.23.2560.1512" timestamp="1582874522221" />
+    <state width="2503" height="313" key="GridCell.Tab.0.right/-2560.117.2560.1417/0.23.2560.1517@0.23.2560.1517" timestamp="1584613995650" />
+    <state width="2503" height="313" key="GridCell.Tab.0.right/-2560.117.2560.1417/0.23.2560.1522@0.23.2560.1522" timestamp="1584617019546" />
+    <state x="787" y="415" key="SettingsEditor" timestamp="1584613986014">
+      <screen x="0" y="23" width="2560" height="1517" />
+    </state>
+    <state x="787" y="415" key="SettingsEditor/-2560.117.2560.1417/0.23.2560.1517@0.23.2560.1517" timestamp="1584613986014" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/hash_comparison$hash_compare.coverage" NAME="hash-compare Coverage Results" MODIFIED="1582077135379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hash_comparison$test.coverage" NAME="test Coverage Results" MODIFIED="1582073050792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hash_comparison$hash_compare.coverage" NAME="hash-compare Coverage Results" MODIFIED="1584669384103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hash_comparison$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1584669297344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
